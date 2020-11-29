@@ -78,9 +78,9 @@ async function main() {
   app.auth.default('jwt')
 
   app.route([
+    ...mapRoutes(new UtilRoutes(), UtilRoutes.methods()),
     ...mapRoutes(new HeroRoutes(context), HeroRoutes.methods()),
     ...mapRoutes(new AuthRoutes(JWT_SECRET, contextPostgres), AuthRoutes.methods()),
-    ...mapRoutes(new UtilRoutes(), UtilRoutes.methods()),
   ])
 
   await app.start()
