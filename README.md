@@ -117,13 +117,13 @@ sudo docker run \
 npm install
 ```
 
-3. Run the application with the command below:
+5. Run the application with the command below:
 
 ```shell
 npm run prod
 ```
 
-4. Access the following URL through the browser:
+6. Access the following URL through the browser:
 
 `http://localhost:5000/documentation`
 
