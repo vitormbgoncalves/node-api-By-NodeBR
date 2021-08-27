@@ -125,7 +125,7 @@ npm run prod
 
 4. Access the following URL through the browser:
 
-`http://localhost:5000//documentation`
+`http://localhost:5000/documentation`
 
 ## 🗒 Quick note
 
