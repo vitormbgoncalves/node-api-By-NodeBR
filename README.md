@@ -27,7 +27,7 @@
 </h3>
 
 <p align="center">
-    API documentation with Swagger/OpenAPI specification:
+    API documentation in Swagger UI:
     <br/>
     <a href="https://node-api-by-nodebr.herokuapp.com/documentation"><strong>https://node-api-by-nodebr.herokuapp.com/documentation</strong></a>
 </p>
